@@ -3,7 +3,7 @@ import {OrbitControls, Sparkles} from '@react-three/drei';
 import {useRef} from "react";
 import { CylinderGeometry } from 'three';
 
-const RotatingCube = () => {
+const MagicOrb = () => {
 
   const meshRef = useRef();
 
@@ -47,7 +47,7 @@ const App = () => {
 
       <color attach = "background" args={['#F0F0F0']} />
 
-      <RotatingCube/>
+      <MagicOrb/>
 
 
     </Canvas>
